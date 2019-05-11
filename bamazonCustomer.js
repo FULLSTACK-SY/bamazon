@@ -131,7 +131,7 @@ async function displayItems()
 
                         console.log("Your order is ready, please pay total : $" + payAmt  );
 
-                        setTimeout(displayItems, 10000);
+                        setTimeout(displayItems, 7000);
 
                       }
                     );
