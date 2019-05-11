@@ -1,7 +1,7 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 var Table = require("cli-table2");
-var colors = require("colors");
+
 
 var wait = 0;
 
@@ -42,7 +42,7 @@ async function displayItems()
                 // to display data in table format
                 console.log(table.toString());
 
-                if (i=res.length) {
+                if (i==res.length) {
                   actionToTake();
                   };
       });
@@ -58,7 +58,7 @@ async function displayItems()
           message: "What would you like to do?",
           choices: [
             "Buy a Product",
-            "exit"
+            "Exit"
           ]
         })
         .then(function(answer) {
@@ -67,7 +67,7 @@ async function displayItems()
             buyItem();
             break;
 
-          case "exit":
+          case "Exit":
             connection.end();
             break;
           }
