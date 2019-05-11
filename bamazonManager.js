@@ -70,9 +70,6 @@ async function displayItems()
                 });
 
                 for (var i = 0; i < res.length; i++) {
-                      // traditional way to display data, not using.
-                      // console.log("Item ID: " + res[i].item_id + " || Product: " + res[i].product_name + " || Department: " + res[i].department_name + " || Price: " + res[i].price+ " || Stock Qty: " + res[i].stock_quantity);
-                      // table is an Array, so you can `push`, `unshift`, `splice` and friends
                       table.push(
                         [res[i].item_id, res[i].product_name, res[i].price, res[i].stock_quantity]
                       );
@@ -99,9 +96,6 @@ async function displayItems()
                 });
 
                 for (var i = 0; i < res.length; i++) {
-                      // traditional way to display data, not using.
-                      // console.log("Item ID: " + res[i].item_id + " || Product: " + res[i].product_name + " || Department: " + res[i].department_name + " || Price: " + res[i].price+ " || Stock Qty: " + res[i].stock_quantity);
-                      // table is an Array, so you can `push`, `unshift`, `splice` and friends
                       table.push(
                         [res[i].item_id, res[i].product_name, res[i].department_name, res[i].price, res[i].stock_quantity]
                       );
