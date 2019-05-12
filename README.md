@@ -94,6 +94,6 @@ Once the customer has placed an order, checking if store has enough of the produ
 
 
 ### Added to my Portfolio
-  ![Screenshot](portfolio.png)
+  ![Screenshot](portfolioadd.png)
 
-*--------------------------------------------------------------------------------------------------------------------
+*-------------------------------------------------------------------------------------------------------------
