@@ -46,6 +46,8 @@ Once the customer has placed an order, checking if store has enough of the produ
     * If NO : displaying Insufficient quantity! and preventing the order from going through.
 ##### OUTPUT for YES =>
   ![Screenshot](buyoptions.png)
+* Sample Dropdown for Product to buy
+  ![Screenshot](dropdown.png)
 * After updating table-> display of remaining stock with options
   ![Screenshot](continuebuyoptions.png)
 ##### OUTPUT for NO =>
