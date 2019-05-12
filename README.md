@@ -91,3 +91,9 @@ Once the customer has placed an order, checking if store has enough of the produ
   ![Screenshot](managerviewnew.png)
 ##### CODE =>
   ![Screenshot](codemanagerviewnew.png)
+
+
+### Added to my Portfolio
+  ![Screenshot](portfolio.png)
+
+*--------------------------------------------------------------------------------------------------------------------
